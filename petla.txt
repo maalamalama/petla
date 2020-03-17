@@ -1,0 +1,9 @@
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+    Console.WriteLine ("Hello World");
+    string[] dni = {"poniedziałek","wtorek","środa","czwartek","piątek","sobota","niedziela"};
+    for(int i=0; i<dni.Length; i++) Console.WriteLine (dni[i]);
+  }
+}
